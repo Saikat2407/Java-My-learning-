@@ -108,7 +108,15 @@ public class LL {
         return prevVal;
     }
 
-
+    public Node returntheNode(int value){
+        Node node = head;
+        while (node != null){
+            if (node.value == value){
+                return node;
+            }
+        }
+        return null;
+    }
     public void display(){
         Node temp = head;
         while(temp != null){

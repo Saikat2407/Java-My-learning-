@@ -12,7 +12,9 @@ public class Main {
         list.display();
 //        System.out.println(list.DeletefirstElement());
 //        System.out.println(list.DeletelastElement());
-        System.out.println(list.delete(3));
+//        System.out.println(list.delete(3));
+        System.out.println(list.returntheNode(12));
         list.display();
+
     }
 }
