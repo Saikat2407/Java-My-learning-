@@ -10,9 +10,11 @@ public class Main {
         list.insertFirst(34);
         list.insertFirst(100);
         list.insertlast(99);
+        list.InsertAtGivenIndex(78,8);
 
-//        list.display();
+//        list.insert(78,101);
+        list.display();
 
-        list.displayREV();
+//        list.displayREV();
     }
 }
