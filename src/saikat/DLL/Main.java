@@ -10,6 +10,8 @@ public class Main {
         list.insertFirst(34);
         list.insertFirst(100);
 
-        list.display();
+//        list.display();
+
+        list.displayREV();
     }
 }

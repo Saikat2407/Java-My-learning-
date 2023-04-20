@@ -31,11 +31,30 @@ public class DLL {
     }
 
     public void display(){
-        Node temp = head;
-        while(temp != null){
-            System.out.print(temp.value + " -> ");
-            temp = temp.next;
+        Node node = head;
+        while(node != null){
+            System.out.print(node.value + " -> ");
+            node = node.next;
         }
         System.out.println("END OF LIST");
     }
+
+    public void displayREV(){
+        Node node = head;
+        Node last = null;
+        while(node != null){
+            System.out.print(node.value + " -> ");
+            last = node;
+            node = last.next;
+        }
+        System.out.println("END");
+
+        System.out.println("Print in Reverse");
+        while (last != null){
+            System.out.print(last.value + " -> ");
+            last = last.prev;
+        }
+        System.out.println("START");
+    }
+
 }
