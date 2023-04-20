@@ -1,4 +1,4 @@
-package saikat;
+package saikat.SL;
 
 public class LL {
     public Node head;

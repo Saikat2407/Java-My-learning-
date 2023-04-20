@@ -1,4 +1,4 @@
-package saikat;
+package saikat.SL;
 
 public class Main {
     public static void main(String[] args) {
