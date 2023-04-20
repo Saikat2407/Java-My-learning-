@@ -31,7 +31,7 @@ public class DLL {
     }
 
     public void display(){
-        DLL.Node temp = head;
+        Node temp = head;
         while(temp != null){
             System.out.print(temp.value + " -> ");
             temp = temp.next;
