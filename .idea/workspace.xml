@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="73a110a7-06e7-4974-8042-53a29ab40fee" name="Changes" comment="Doubly Linked list">
+    <list default="true" id="73a110a7-06e7-4974-8042-53a29ab40fee" name="Changes" comment="Doubly LL">
+      <change afterPath="$PROJECT_DIR$/src/saikat/CLL/CLL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/saikat/CLL/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/saikat/DLL/DLL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/saikat/DLL/DLL.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/saikat/DLL/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/saikat/DLL/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +40,7 @@
     &quot;git-widget-placeholder&quot;: &quot;master&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.saikat.DLL.Main">
+  <component name="RunManager" selected="Application.saikat.CLL.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="saikat.Main" />
       <module name="Linkedlist" />
@@ -67,6 +67,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="saikat.CLL.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="saikat.CLL.Main" />
+      <module name="Linkedlist" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="saikat.CLL.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="saikat.DLL.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="saikat.DLL.Main" />
       <module name="Linkedlist" />
@@ -82,6 +95,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.saikat.CLL.Main" />
         <item itemvalue="Application.saikat.DLL.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.basicLinkedlist" />
@@ -146,7 +160,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681977757770</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Doubly LL">
+      <created>1681992573065</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1681992573065</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -165,6 +186,7 @@
     <MESSAGE value="Linkedlist basic to advance" />
     <MESSAGE value="Linked list" />
     <MESSAGE value="Doubly Linked list" />
-    <option name="LAST_COMMIT_MESSAGE" value="Doubly Linked list" />
+    <MESSAGE value="Doubly LL" />
+    <option name="LAST_COMMIT_MESSAGE" value="Doubly LL" />
   </component>
 </project>
