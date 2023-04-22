@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="73a110a7-06e7-4974-8042-53a29ab40fee" name="Changes" comment="Doubly LL">
-      <change afterPath="$PROJECT_DIR$/src/saikat/CLL/CLL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/saikat/CLL/Main.java" afterDir="false" />
+    <list default="true" id="73a110a7-06e7-4974-8042-53a29ab40fee" name="Changes" comment="Circular linkedlist">
+      <change afterPath="$PROJECT_DIR$/src/saikat/LeetCode/duplicates.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/saikat/SL/LL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/saikat/SL/LL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/saikat/SL/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/saikat/SL/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +41,7 @@
     &quot;git-widget-placeholder&quot;: &quot;master&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.saikat.CLL.Main">
+  <component name="RunManager" selected="Application.saikat.SL.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="saikat.Main" />
       <module name="Linkedlist" />
@@ -93,8 +94,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="saikat.SL.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="saikat.SL.Main" />
+      <module name="Linkedlist" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="saikat.SL.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.saikat.SL.Main" />
         <item itemvalue="Application.saikat.CLL.Main" />
         <item itemvalue="Application.saikat.DLL.Main" />
         <item itemvalue="Application.Main" />
@@ -167,7 +182,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681992573065</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Circular linkedlist">
+      <created>1681994970122</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1681994970122</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -187,6 +209,22 @@
     <MESSAGE value="Linked list" />
     <MESSAGE value="Doubly Linked list" />
     <MESSAGE value="Doubly LL" />
-    <option name="LAST_COMMIT_MESSAGE" value="Doubly LL" />
+    <MESSAGE value="Circular linkedlist" />
+    <option name="LAST_COMMIT_MESSAGE" value="Circular linkedlist" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/saikat/SL/LL.java</url>
+          <line>66</line>
+          <properties class="saikat.SL.LL" method="insertRec">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
