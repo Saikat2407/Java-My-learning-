@@ -260,6 +260,43 @@ public class LL {
         }
     }
 
+    //Reverse a Linked-list using Recursion.
+    public void reverse(Node node){
+        if(node == tail){
+            head = tail;
+            return;
+        }
+        reverse(node.next);
+
+        tail.next = node;
+        tail = node;
+        tail.next = null;
+    }
+
+    // Reverse a Linked-list using iterative. (in place reversal of linked list)
+    // google, microsoft, apple, amazon: https://leetcode.com/problems/reverse-linked-list/
+    public void reverse(){
+        if(size < 2){
+            return;
+        }
+        if (head == null){
+            return;
+        }
+        Node prev = null;
+        Node present = head;
+        Node next = present.next;
+
+        while (present != null){
+            present.next = prev;
+            prev = present;
+            present = next;
+            if (next != null){
+                next = next.next;
+            }
+        }
+        head = prev;
+    }
+
     public Node returntheNode(int value){
         Node node = head;
         while (node != null){

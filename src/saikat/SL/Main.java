@@ -28,20 +28,32 @@ public class Main {
 //            list.display();
 //            list.duplicate();
 //            list.display();
-            LL first = new LL();
-            LL second = new LL();
 
-            first.insertLast(1);
-            first.insertLast(3);
-            first.insertLast(5);
 
-            second.insertLast(1);
-            second.insertLast(2);
-            second.insertLast(9);
-            second.insertLast(14);
+//            LL first = new LL();
+//            LL second = new LL();
+//
+//            first.insertLast(1);
+//            first.insertLast(3);
+//            first.insertLast(5);
+//
+//            second.insertLast(1);
+//            second.insertLast(2);
+//            second.insertLast(9);
+//            second.insertLast(14);
+//
+//            LL ans = LL.merge(first,second);
+//            ans.display();
 
-            LL ans = LL.merge(first,second);
-            ans.display();
+            LL list = new LL();
+            list.insertLast(4);
+            list.insertLast(3);
+            list.insertLast(2);
+            list.insertLast(1);
+
+            list.display();
+            list.reverse();
+            list.display();
 
 
     }
