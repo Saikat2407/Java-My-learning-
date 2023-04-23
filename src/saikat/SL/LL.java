@@ -173,6 +173,42 @@ public class LL {
         return ans;
     }
 
+    // https://leetcode.com/problems/linked-list-cycle/
+    public boolean hasCycle(Node head) {
+        Node fast = head;
+        Node slow = head;
+
+        while(fast != null && fast.next != null){
+            fast = fast.next.next;
+            slow = slow.next;
+            if(fast == slow){
+                return true;
+            }
+        }
+        return false;
+    }
+
+    // length of the cycle
+
+    public int Lengthcycle(Node head) {
+        Node fast = head;
+        Node slow = head;
+
+        while(fast != null && fast.next != null){
+            fast = fast.next.next;
+            slow = slow.next;
+            if(fast == slow){
+                Node temp = slow;
+                int length = 0;
+                do {
+                    temp = temp.next;
+                    length++;
+                } while (temp != slow);
+            }
+        }
+        return 0;
+    }
+
     public Node returntheNode(int value){
         Node node = head;
         while (node != null){

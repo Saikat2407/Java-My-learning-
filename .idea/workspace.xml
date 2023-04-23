@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="73a110a7-06e7-4974-8042-53a29ab40fee" name="Changes" comment="linked-list using recursion.">
+    <list default="true" id="73a110a7-06e7-4974-8042-53a29ab40fee" name="Changes" comment="leetcode question on linked-list">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/saikat/SL/LL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/saikat/SL/LL.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/saikat/SL/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/saikat/SL/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -195,7 +194,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682164613993</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="leetcode question on linked-list">
+      <created>1682170576404</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1682170576404</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -217,6 +223,7 @@
     <MESSAGE value="Doubly LL" />
     <MESSAGE value="Circular linkedlist" />
     <MESSAGE value="linked-list using recursion." />
-    <option name="LAST_COMMIT_MESSAGE" value="linked-list using recursion." />
+    <MESSAGE value="leetcode question on linked-list" />
+    <option name="LAST_COMMIT_MESSAGE" value="leetcode question on linked-list" />
   </component>
 </project>
