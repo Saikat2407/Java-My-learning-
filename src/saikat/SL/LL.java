@@ -9,7 +9,6 @@ public class LL {
         this.size = 0;
     }
 
-
     public class Node{
         public int value;
         public Node next;
@@ -312,7 +311,7 @@ public class LL {
             System.out.print(temp.value + " -> ");
             temp = temp.next;
         }
-        System.out.println("END OF LIST");
+        System.out.println("END");
     }
 }
 
